@@ -1,3 +1,6 @@
+main{
+	margin-bottom: 1.40rem;
+}
 /* 头部开始 */
 .head{
 	width: 100%;
@@ -28,7 +31,7 @@
 	margin-right: 0.3rem;
 }
 .top  .h-text{
-	font-size: 0.24rem;
+	font-size: 0.5rem;
 	color: #fff;
 	line-height: 1.4rem;
 }
@@ -39,7 +42,7 @@
 }
 .middle .m-one{
 	width: 100%;
-	height: 1.2rem;
+	height: 1.5rem;
 	padding: 0 0.5rem;
 	box-sizing: border-box;
 	display: flex;
@@ -47,13 +50,13 @@
 	border-bottom: 0.01rem solid #999;
 }
 .middle .m-one p{
-	font-size: 0.4rem;
-	line-height: 1.2rem;
+	font-size: 0.5rem;
+	line-height: 1.5rem;
 	color: rgba(0,0,0,0.87);
 }
 .middle .m-two{
 	width: 100%;
-	height: 3.2rem;
+	height: 2.7rem;
 	display: flex;
 	justify-content: space-around;
 }
@@ -75,7 +78,7 @@
 }
 .middle .m-three{
 	width: 100%;
-	height: 3.8rem;
+	height: 3.7rem;
 	border-top: 0.4rem solid #f5f5f5;
 	padding: 0 0.5rem;
 	box-sizing: border-box;
@@ -84,7 +87,7 @@
 }
 .middle .m-three>div{
 	width: 100%;
-	height: 1.9rem;
+	height: 1.85rem;
 	display: flex;
 	align-items: center;
 }
@@ -95,28 +98,43 @@
 }
 .middle .m-three>div>p{
 	width: 12rem;
-	font-size: 0.6rem;
-	line-height: 1.9rem;
+	font-size: 0.5rem;
 }
 .middle .m-three .iconfont{
-	font-size: 0.6rem;
-	line-height: 1.9rem;
+	font-size: 0.5rem;
 }
 .middle .m-three .m-line{
 	width: 9.14rem;
 	height: 0.03rem;
 	background: #f5f5f5;
+	padding-left: 6rem;
 }
 .middle .m-four{
 	width: 100%;
 	height: 1.9rem;
 	border-top: 0.4rem solid rgba(0,0,0,0.05);
+	padding: 0 0.5rem;
+	box-sizing: border-box;
 }
-
+.middle .m-four>div{
+	display: flex;
+	align-items: center;
+}
+	
+.middle .m-four .img>img{
+	width: 0.85rem;
+	height: 0.85rem;
+	padding-right: 0.5rem;
+}
+.middle .m-four>div>p{
+	width: 12rem;
+	font-size: 0.5rem;
+}
+.middle .m-four .iconfont{
+	font-size: 0.5rem;
+}
 /* 中间结束 */
 /* 尾部开始 */
-
-/* 尾部结束 */
 .list1 .icon{
 	width: 0.58rem;
 	height: 0.58rem;
@@ -135,3 +153,4 @@
 	font-size: 0.22rem;
 	color:#ff6700;
 }
+/* 尾部结束 */

@@ -1,0 +1,73 @@
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 1.2rem;
+	background: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0.4rem;
+	box-sizing: border-box;
+}
+.head p,.head a{
+	font-size: 0.6rem;
+	color: #666;
+}
+.head div{
+    border: 1px solid #e5e5e5;
+    border-radius: 0.04rem;
+    width: 7rem;
+    padding: 0.2rem;
+    outline: 0;
+    font-size: 0.5rem;
+	background: #fff;
+	color: #999999;
+	line-height: 0.5rem;
+    font-weight: 400;
+    height: 0.5rem;
+}
+.hot{
+	width: 100%;
+}
+.hot .remen{
+	width: 100%;
+	height: 1.2rem;
+	margin-left: 0.4rem;
+	box-sizing: border-box;
+	font-size: 0.4rem;
+	color: #333333;
+	line-height: 1.2rem ;
+}
+.hot .content img{
+	width: 100%;
+	height: 4.5rem;
+}
+.hot .tishi{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0.2rem;
+}
+.hot .tishi>div{
+	height: 0.6rem;
+	font-size: 0.35rem;
+	margin: 0.05rem 0.2rem 0.25rem 0.1rem;
+	color: #747474;
+	background: papayawhip;
+	border: 0.05rem solid pink;
+}
+.hot .tishi-2{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0.2rem;
+}
+.hot .tishi-2 div{
+	height: 0.6rem;
+	font-size: 0.35rem;
+	margin: 0.05rem 0.2rem 0.25rem 0.1rem;
+	color: #919191;
+	background: #E0E0E0;
+	border: 0.05rem solid #e0e0e0;
+}	
+
+
+/* 头部结束 */
