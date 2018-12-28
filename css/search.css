@@ -48,25 +48,39 @@
 	margin: 0 0.2rem;
 }
 .hot .tishi>div{
-	height: 0.6rem;
+	width: 3.15rem;
+	height: 0.8rem;
 	font-size: 0.35rem;
-	margin: 0.05rem 0.2rem 0.25rem 0.1rem;
+	line-height: 0.8rem;
+	text-align: center;
+	margin: 0.15rem 0.2rem;
 	color: #747474;
-	background: papayawhip;
-	border: 0.05rem solid pink;
+	background: #f9ebea;
+	border: 0.05rem solid #ddb1ae;
+}
+.hot .tishi .small{
+	width: 2.4rem;
+	height: 0.8rem;
+	font-size: 0.35rem;
+	line-height: 0.8rem;
+	text-align: center;
+	margin: 0.15rem 0.2rem;
+	color: #747474;
+	background: #e5f6e3;
+	border: 0.05rem solid #a7c0a3;
 }
 .hot .tishi-2{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 0.2rem;
+	margin: 0 0.5rem;
 }
 .hot .tishi-2 div{
 	height: 0.6rem;
 	font-size: 0.35rem;
-	margin: 0.05rem 0.2rem 0.25rem 0.1rem;
+	margin: 0.05rem 0.3rem 0.25rem 0.2rem;
 	color: #919191;
-	background: #E0E0E0;
-	border: 0.05rem solid #e0e0e0;
+	background: #f5f5f5;
+	border: 0.05rem solid #f6f6f6;
 }	
 
 
