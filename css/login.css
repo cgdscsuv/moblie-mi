@@ -22,32 +22,44 @@
 	line-height: 0.5rem;
 	padding-bottom: 0.4rem;
 }
-.head .num{
+.middle{
+	width: 100%;
+    margin: 0 auto 0.3rem;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.middle input{
 	width: 9rem;
 	height: 1.7rem;
 	font-size: 0.5rem;
 	color: #9a9a9a;
-	display: flex;
 	padding-left: 0.3rem;
-	align-items: center;
-	border-bottom: 0.04rem solid #d4d4d4;
+	border:none;
 }
-.head .note{
+.middle .line{
+	width: 90%;
+	height: 0.03rem;
+	background: #D4D4D4;
+}
+.middle .input{
 	width: 9rem;
 	height: 1.7rem;
 	font-size: 0.5rem;
 	color: #9a9a9a;
 	padding-right: 0.3rem;
-	/* margin-bottom: 0.72rem; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 0.04rem solid #d4d4d4;
 }
-.head .note>p:nth-child(2){
+.middle .input p{
 	color: #4b9ccb;
 }
-.head .log-y{
+.middle .log-y{
 	width: 9.3rem;
 	height: 1.3rem;
 	background: #ff6902;
@@ -57,7 +69,7 @@
 	line-height: 1.3rem;
 	color: #fff;
 }
-.head .log-h{
+.middle .log-h{
 	width: 9.3rem;
 	height: 1.3rem;
 	border-radius:0.3rem;
@@ -67,12 +79,12 @@
 	font-size: 0.5rem;
 	line-height: 1.3rem;
 }
-.head .line{
+.middle .line-2{
 	width: 3.4rem;
 	height: 0.04rem;
 	background: #efefef;
 }
-.head .qita{
+.middle .qita{
 	width: 9rem;
 	height: 0.36rem;
 	font-size: 0.36rem;
@@ -81,20 +93,20 @@
 	align-items: center;
 	margin-bottom: 0.7rem;
 }
-.head .denglufangshi i{
+.middle .denglufangshi i{
 	font-size: 0.92rem;
 	margin-left: 0.6rem;
 	color: #62befd;
 	
 }
-.head .denglufangshi i:nth-child(1){
+.middle .denglufangshi i:nth-child(1){
 	margin-left: 0;
 	color: #ff8d8e;
 }
-.head .denglufangshi i:nth-child(3){
+.middle .denglufangshi i:nth-child(3){
 	color: #00be00;
 }
-.head .font{
+.middle .font{
 	margin-top: 1.7rem;
 	width: 100%;
 	height: 0.4rem;
