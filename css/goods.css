@@ -233,6 +233,11 @@
 	font-size: 0.4rem;
 	color: #292929;
 }
+.t-text p:first-child{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
 .t-text p:nth-child(2){
 	font-size: 0.4rem;
 	color: #e3702d;
