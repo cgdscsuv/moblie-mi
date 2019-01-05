@@ -15,6 +15,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	z-index: 20;
 }
 .header span{
 	font-size: 0.5rem;

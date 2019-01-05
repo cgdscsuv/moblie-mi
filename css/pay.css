@@ -1,0 +1,193 @@
+/* header */
+.header{
+	width: 100%;
+	max-width: 640px;
+	height: 1.5rem;
+	background: #f2f2f2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	color: #919191;
+}
+.header span{
+	font-size: 0.5rem;
+	margin-left: 3.1rem;
+}
+.header a{
+	font-size: 0.58rem;
+}
+/* middle */
+.middle{
+	width: 100%;
+	margin: 1.5rem 0 0;
+}
+.middle .message{
+	width: 100%;
+	height: 2.6rem;
+	background: #fff;
+	padding: 0 0.4rem 0 0.6rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.site .name{
+	font-size: 0.45rem;
+	color: #3c3c3c;
+	margin-bottom: 0.2rem;
+}
+.site .address{
+	font-size: 0.3rem;
+	color: #747474;
+}
+.iconfont{
+	font-size: 0.45rem;
+	color: #3c3c3c;
+}
+.m-line{
+	width: 100%;
+	height: 0.3rem;
+	background: #f5f5f5;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+}
+.m-pay{
+	width: 100%;
+	height: 10.9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.m-pay .paytype{
+	width: 89%;
+	height: 1.4rem;
+	border-bottom: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.m-pay .paytype p{
+	font-size: 0.35rem;
+	color: #333333;
+	display: flex;
+	align-items: center;
+}
+.m-pay .paytype p:first-child>i{
+	font-size: 0.75rem;
+	color: #01cc00;
+	margin-right: 0.3rem;
+}
+.m-pay .paytype p:nth-child(2)>i{
+	font-size: 0.6rem;
+	color: #e0e0e0;
+}
+.m-pay .paytype:first-child p:nth-child(2)>i{
+	font-size: 0.6rem;
+	color: #fe5722;
+}
+.m-pay .paytype-s{
+	font-size: 0.35rem;
+	color: #bcbcbc;
+	line-height: 1.25rem;
+	text-align: center;
+}
+.m-pay .paytype-s>i{
+	font-size: 0.35rem;
+	color: #bcbcbc;
+	margin-left: 0.15rem;
+}
+.m-pay-s{
+	width: 100%;
+	height: 4.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.m-pay-s .paytype{
+	width: 89%;
+	height: 1.4rem;
+	border-bottom: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.35rem;
+	color: #3c3c3c;
+}
+.m-pay-s .paytype:nth-child(3){
+	border: 0;
+}
+.m-pay-s .paytype p:nth-child(2),p:nth-child(2)>i{
+	color: #bdbdbd;
+}
+.m-pay-s .paytype p:nth-child(2)>em{
+	font-style:oblique;
+	color: #f5680c;
+}
+.m-goods{
+	width: 100%;
+	height: 1.8rem;
+	display: flex;
+	align-items: center;
+}
+.m-goods img{
+	width: 1.1rem;
+	height: 1.1rem;
+	margin: 0 0.35rem 0 0.65rem;
+}
+.m-goods p{
+	width: 65%;
+	font-size: 0.35rem;
+	color: #3c3c3c;
+}
+.m-goods i{
+	font-size: 0.25rem;
+	font-weight: 800;
+	color: #333;
+}
+.m-value{
+	width: 100%;
+	height: 2.3rem;
+	padding: 0.4rem 0.6rem;
+}
+.m-value>p{
+	font-size: 0.35rem;
+	color: #333;
+	font-weight: 800;
+	margin-bottom: 0.25rem;
+}
+.m-value>p>em{
+	font-weight: 300;
+	color: #333;
+}
+.m-bottom{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+}
+.m-bottom>div{
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	font-size: 0.45rem;
+	color: #fe5722;
+	text-align: center;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
+.m-bottom>a{
+	width: 50%;
+	height: 100%;
+	background: #fe5722;
+	font-size: 0.45rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
